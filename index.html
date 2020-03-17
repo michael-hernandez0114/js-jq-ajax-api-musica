@@ -9,6 +9,36 @@
     </head>
     <body>
 
+        <div class="container-fullwidth">
+            <header>
+                <div class="container">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </header>
+            <div class="container card-block">
+            <!--
+                <div class="card">
+                    <img src="https://i.picsum.photos/id/453/200/300.jpg" alt="">
+                    <h3>TEST</h3>
+                    <span>ARTIST</span>
+                    <span>1999</span>
+
+                </div>
+            -->
+            </div>
+
+
+        </div>
+
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card">
+                <img src="{{imgAlbum}}" alt="">
+                <h3>{{albumName}}</h3>
+                <span>{{artist}}</span>
+                <span>{{year}}</span>
+
+            </div>
+        </script>
 
     <script src='js/main.js'>
 

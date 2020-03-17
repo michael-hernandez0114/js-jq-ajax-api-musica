@@ -3,3 +3,58 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container-fullwidth {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: darkblue;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+header {
+    height: 70px;
+    background-color: darkgray;
+
+}
+
+header img {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-block {
+    padding: 70px;
+    justify-content: center;
+}
+
+.card {
+    height: 270px;
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+    margin: 10px 20px;
+}
+
+.card h3 {
+    color: white;
+}
+
+.card span {
+    color: #808080;
+}
+
+.card img {
+    height: 180px;
+
+}
